@@ -9,3 +9,6 @@ docker run -p 8000:8000 fastapi-transformer
 
 #alternativelly, you can run a dev environment, this already with an active venv and inside the folder nlp
 uvicorn app.main:app --reload
+
+# To run the front, go to folder frontend
+npm start
